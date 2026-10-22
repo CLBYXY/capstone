@@ -1,0 +1,20 @@
+# secrets
+.env
+*.env
+!.env.example
+
+# data (not distributed: patient conversations, licensed vocabularies)
+*.xlsx
+*.csv
+*.zip
+*.RRF
+
+# generated indexes
+*_faiss_index/
+*.faiss
+*.pkl
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
